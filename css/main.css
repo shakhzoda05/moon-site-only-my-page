@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Barlow Condensed";
+  font-family: "Bellefair";
+  font-family: "Barlow";
+}
+
+.crew-body {
+  background-color: black;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.crew-body {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top left;
+}
+
+.crew-header {
+  padding: 40px 0 76px 55px;
+}
+
+.crew-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crew__logo-link {
+  display: inline-block;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.navbar {
+  position: relative;
+  width: 830px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(81.55px);
+          backdrop-filter: blur(81.55px);
+  background: rgba(255, 255, 255, 0.04);
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -449px;
+}
+
+.navbar__link {
+  display: inline-block;
+  padding: 35px 0;
+  color: rgb(255, 255, 255);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.navbar__link:hover {
+  border-color: white;
+}
+
+.navbar__bold {
+  display: inline-block;
+  margin-right: 11px;
+  color: rgb(255, 255, 255);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+.crew-all-site {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.crew-all-texts .crew-text1 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 150px;
+}
+.crew-all-texts .crew-text1 span {
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.444);
+}
+.crew-all-texts .crew-text1 h2 {
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.crew-all-texts .crew-3texts h2 {
+  font-family: "Bellefair";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 36.67px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.444);
+  width: 214px;
+  padding-bottom: 15px;
+}
+.crew-all-texts .crew-3texts h1 {
+  font-family: "Bellefair";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64.18px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  width: 488px;
+  padding-bottom: 27px;
+}
+.crew-all-texts .crew-3texts p {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: rgb(208, 214, 249);
+  width: 444px;
+  padding-bottom: 120px;
+}
+.crew-all-texts .crew-3texts .ful-stop {
+  padding-bottom: 94px;
+}
+
+.crew-people-img {
+  padding-top: 60px;
+}/*# sourceMappingURL=main.css.map */
